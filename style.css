@@ -1,0 +1,114 @@
+.rodney h2 {
+margin-left: 530px;
+margin-top: 10px;
+font-weight: 500;
+}
+.rodney p{
+    margin-left: 560px;
+    margin-top: 2px;
+    font-size: 200;
+}
+
+   
+
+.rodney img{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 550px;
+  
+}
+.content{
+    display: grid;
+    justify-content: center;
+    display: flex;
+   
+    margin-top: 25px;
+    gap: 20px; 
+}
+.content1{
+    background-color: rgba(112, 128, 144, 0.444);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+    
+    
+    
+}
+.content2{
+    background-color: rgba(112, 128, 144, 0.365);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+.content3{
+    background-color: rgba(112, 128, 144, 0.332);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    height: 130vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 18px;
+    margin-top: 50px;
+
+}
+.container{
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    
+
+
+}
+#item1{
+    background-image: url(photo1.png);
+}
+#item2{
+    background-image: url(photo2.png);
+    grid-column: 2/4;
+}
+#item3{
+    background-image: url(photo3.png);
+    grid-column: 1/3;
+}
+#item4{
+    background-image: url(photo_4.png);
+    grid-row: span 2;
+}
+#item5{
+    background-image: url(photo6.png);
+}
+#item6{
+    background-image: url(photo5.png);
+}
+.last{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(111, 141, 168);
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
